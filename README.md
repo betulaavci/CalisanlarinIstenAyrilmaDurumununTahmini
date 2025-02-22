@@ -1,6 +1,6 @@
 # CalisanlarinIstenAyrilmaDurumununTahmini
 
-1. PROBLEM TANIMI
+1.PROBLEM TANIMI
 Çalışan insanların işi bırakma nedenleri üzerine bir makine öğrenmesi projesi gerçekleştirildi. Geliştirilen projenin amacı, çalışanların işten ayrılma nedenlerini analiz ederek, bu süreçte etkili olan faktörleri anlamak ve işletmelerin çalışan memnuniyetini artırmaya yönelik stratejiler geliştirmelerine yardımcı olmaktır. Ayrıca bu sistem, hem çalışanların ihtiyaçlarına daha iyi cevap verebilmek hem de iş gücü kayıplarını azaltarak işletmelerin verimliliğini artırmak için önemli bir araç sunmaktadır.
 
 2.VERİ SETİNİN SEÇİMİ VE HAZIRLANMASI
@@ -9,12 +9,12 @@ Proje kapsamında kullanılan veri seti, yapılan araştırmalar sonucunda Kaggl
 3.VERİ ANALİZİ (EDA)
 Verinin dağılımı ve yapısı, kodlarla detaylı bir şekilde analiz edildi. Grafikler ve istatistiksel yöntemler, kod aracılığıyla uygulanarak veriden anlamlı sonuçlar çıkarıldı.
 
-4. MODEL GELİŞTİRME
+4.MODEL GELİŞTİRME
 Projede, çalışanların işten ayrılma nedenlerini tahmin etmek amacıyla GradientBoostingClassifier algoritması kullanılmıştır. Modelin performansını optimize etmek ve en uygun hiperparametreleri belirlemek için GridSearchCV yöntemi uygulanmıştır. GridSearchCV, belirlenen hiperparametre aralıklarını sistematik bir şekilde tarayarak, modelin doğruluğunu ve genel başarısını artıracak en iyi kombinasyonu seçmiştir. Bu yöntem, modelin hem tahmin doğruluğunu artırmış hem de genelleştirme kabiliyetini güçlendirmiştir.
 
 5.SONUÇLARIN DEĞERLENDİRİLMESİ VE RAPORLAMA
 GradientBoostingClassifier Kullanımı:
-Bu model, karar ağaçları üzerine kurulu bir topluluk öğrenme (ensemble learning) yöntemidir. Her ardışık model, bir önceki modelin hatalarını düzeltmeyi hedefler. Sağlanan %87,07'lik doğruluk, modelin test seti üzerinde güçlü bir şekilde çalıştığını gösteriyor.
+      Bu model, karar ağaçları üzerine kurulu bir topluluk öğrenme (ensemble learning) yöntemidir. Her ardışık model, bir önceki modelin hatalarını düzeltmeyi hedefler. Sağlanan                %87,07'lik doğruluk, modelin test seti üzerinde güçlü bir şekilde çalıştığını gösteriyor.
 Hiperparametre Optimizasyonu (GridSearchCV):
       GridSearchCV yöntemi, modelin en iyi parametre kombinasyonlarını bulmak için kullanıldı.
       Elde edilen parametreler (max_depth=4, max_features=0.2, n_estimators=20), modelin test seti üzerindeki doğruluğunu optimize etmek için etkili bir şekilde ayarlandı.
